@@ -4,10 +4,7 @@ import java.util.Scanner;
 
 public class calculateTaxMainMethod {
         public static void main(String[] args) {
-            //TaxFiling calculateTax = new TaxFiling();
-            Scanner input = new Scanner(System.in);
-           // String filingStatus=input.nextLine().trim();
-           // Double income=input.nextDouble();
+
             Scanner scanner = new Scanner(System.in);
 
             // Get user input for filing status and income
@@ -25,6 +22,6 @@ public class calculateTaxMainMethod {
             }else{
                 System.out.println("Your Income Taxable Amount is: " + tax);
             }
-            input.close();
+            scanner.close();
         }
 }
